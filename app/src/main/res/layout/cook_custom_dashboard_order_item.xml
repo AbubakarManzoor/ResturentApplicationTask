@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="85dp">
+
+    <LinearLayout
+        android:id="@+id/cook_dashboard_item_background"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:background="@color/color_white"
+            android:orientation="vertical"
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="0.5"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+
+                <TextView
+                    android:id="@+id/tv_cookDasboardOrderNumber"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Number"
+                    android:textColor="@color/home_grid_black"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:layout_weight="0.6"
+                    android:id="@+id/tv_cookDashboardTableName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Table Number"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cook_dashboard_item_tablename_color"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_weight="0.4"
+                    android:id="@+id/tv_cookDasboardOrderTime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="02: 30 pm"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/cook_dashboard_item_ordertime_color"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/color_white"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+          <TextView
+              android:id="@+id/cook_dashbaord_list_orderTotalItems"
+              android:gravity="center"
+              android:textSize="18sp"
+              android:textColor="@color/home_grid_black"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=" 5 Items"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

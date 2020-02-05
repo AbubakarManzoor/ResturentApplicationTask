@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="170dp">
+
+    <LinearLayout
+        android:id="@+id/waiterHomeGrid"
+        android:background="@drawable/waiter_home_grid_background_reserved"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/tv_Home_Grid_Reserve"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/home_grid_dark"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/waiter_home_grid_reserve_background"
+                android:text="R"/>
+
+
+            <TextView
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_Home_Grid_TotalReservations"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/waiter_home_grid_total_booking_background"
+                android:text="3"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+
+
+            <TextView
+                android:id="@+id/tv_Home_Grid_TableNumber"
+                android:textColor="@color/home_grid_black"
+                android:background="@color/home_grid_light"
+                android:gravity="center|bottom"
+                android:text="TABLE NAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/iv_Home_Grid_Chairs"
+                android:src="@drawable/ic_waiter_home_chairs_reserved"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_Home_Grid_TableName_Background"
+            android:layout_width="match_parent"
+            android:layout_weight="0.2"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/tv_Home_Grid_TableCapacity"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Seat Capacity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

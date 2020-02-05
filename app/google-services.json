@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "77327369885",
+    "firebase_url": "https://resturentapplicationtask.firebaseio.com",
+    "project_id": "resturentapplicationtask",
+    "storage_bucket": "resturentapplicationtask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77327369885:android:44e5e22d6f08a3a6467674",
+        "android_client_info": {
+          "package_name": "info.semicolen.resturentapplicationtask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77327369885-bf1agckmkcnl2960s4nhjb6oohkponfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.semicolen.resturentapplicationtask",
+            "certificate_hash": "068556525118ff0800ed3df142b8079f970d6af0"
+          }
+        },
+        {
+          "client_id": "77327369885-va9an7fp5pq2ed744cu1rf6oeij5iiu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZzg0MpNgLLsyExB3VZ2Pyx68gUhUrMcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77327369885-va9an7fp5pq2ed744cu1rf6oeij5iiu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#feb300</color>
+    <color name="colorPrimaryDark">#feb300</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="loginScreenButtonColor">#feb300</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- Weiter Application Colors -->
+    <color name="homeBackground">#f1f1f1</color>
+    <color name="home_grid_dark">#E50500</color>
+    <color name="home_grid_light">#f18886</color>
+    <color name="home_grid_black">#000000</color>
+
+    <color name="home_Available">#04a750</color>
+    <color name="home_Available_light">#c1f2d8</color>
+    <color name="home_partial">#f97b2d</color>
+    <color name="home_partial_light">#f2c5aa</color>
+    <color name="home_full">#fd0407</color>
+    <color name="home_full_light">#f1b9ba</color>
+    <color name="home_reserved">#fd0205</color>
+    <color name="home_reserved_light">#f1b9ba</color>
+    <color name="color_white">#ffffff</color>
+
+    <color name="color_grey">#8f8f8f</color>
+
+    <color name="cook_dashboard_ready_Button">#00fa75</color>
+    <color name="cook_dashboard_item_background">#353535</color>
+    <color name="cook_dashboard_item_tablename_color">#b65441</color>
+    <color name="cook_dashboard_item_ordertime_color">#828ef5</color>
+
+    <color name="cook_dashboard_item_backgrond_CookingStage">#ffa647</color>
+    <color name="cook_dashboard_item_backgrond_JustOrderState">#ff0900</color>
+    <color name="cook_dashboard_item_backgrond_Deliverd">#02ed70</color>
+
+
+
+
+</resources>
